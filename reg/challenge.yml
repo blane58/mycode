@@ -1,0 +1,27 @@
+---
+ - name: Playbook for the class challenge
+   hosts: planet-express
+
+   vars_prompt: 
+   - name: "directory"
+     prompt: Enter a Directory to search
+     private: no
+    
+
+   tasks:
+
+   - name: Perform an ls command
+     command: "ls {{ ansible_user_dir }}/{{ directory }}"
+     register: contentz_homedir
+
+   - name: Print data returned"
+     debug:
+       msg: "{{ contentz_homedir }}"
+
+   - name: debug - standard error
+     debug: 
+       msg: "{{ contentz_homedir.stderr }}"
+
+   - name: debug - standard out
+     debug: 
+       msg: "{{ contentz_homedir.stdout }}"
