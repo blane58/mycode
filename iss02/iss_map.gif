@@ -1,0 +1,12 @@
+--2019-06-25 17:40:15--  https://alta3.com/static/images/python/iss_map.gif
+Resolving alta3.com (alta3.com)... 54.163.152.11
+Connecting to alta3.com (alta3.com)|54.163.152.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 67481 (66K) [image/gif]
+Saving to: ‘iss_map.gif.1’
+
+     0K .......... .......... .......... .......... .......... 75% 3.77M 0s
+    50K .......... .....                                      100%  100M=0.01s
+
+2019-06-25 17:40:16 (4.91 MB/s) - ‘iss_map.gif.1’ saved [67481/67481]
+

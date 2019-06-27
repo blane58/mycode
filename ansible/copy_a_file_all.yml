@@ -1,0 +1,14 @@
+---
+- name: Copy a file to everyboby
+  hosts: napyaclass
+  gather_facts: false
+  
+  tasks: 
+  - name: Using the copy command
+    copy: 
+      src: yamlearn.yaml
+      dest: yamlearn.yaml_279
+      
+
+
+

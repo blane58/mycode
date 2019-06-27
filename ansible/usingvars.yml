@@ -1,0 +1,31 @@
+---
+- name: Using debug with ansible_vars
+  host: planet-express
+
+  vars:
+          NAPYA: cool class
+
+  vars_prompt:
+          - name: "whichdir"
+            prompt: "What directory should we look at?"
+            private: no
+
+
+  tasks:
+  - name: Print out ansible_os_family
+    debug:
+      msg: "This machine is in the {{ ansible_os_family }} family in the {{ NAPYA }}"
+
+  - name: Print out the ansible_pkg_mgr
+    debug: 
+      var: ansible_pkg_mgr
+
+  - name: Get Personal Information
+    shell: "ls {{ whichdir }}"
+    prompt: "What directory should we look at?"
+    private: no
+    register: goodies
+
+  - name: Print out the goodies
+    debug: 
+    var: goodies
