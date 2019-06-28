@@ -1,0 +1,32 @@
+---
+# Learning YAML
+
+# Basic scalar mapping
+switch1: arista
+switch2: cisco
+itemnumber: 7
+
+# Create a list of items
+groceries:
+- milk
+- eggs
+- bacon
+
+# Create a more complex list
+Kroger:
+- diapers:
+    size: JPs
+    cost: Cheap
+    quantity: 300
+    brand: Depends
+- toilet paper:
+    ply: 2
+    brand: Charmin
+    cost: Not so cheap
+- cheese:
+  - cheddar
+  - colby-jack
+  - swiss
+  
+
+
