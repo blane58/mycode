@@ -1,0 +1,26 @@
+omzcssopp01ew01.vzbi.com,199.249.27.1,Prod Ext Web Server 01,USE242JH6V
+omzcssopp01ew02.vzbi.com,199.249.27.2,Prod Ext Web Server 02,USE242JH6S
+omzcssopp01ms01.vzbi.com,165.122.246.41,Prod vCenter Host,USE242JH6T
+omzcssopp01h01.vzbi.com,165.122.246.39,Prod ESX Server 01,USE241HV1C
+omzcssopp01iw01v.vzbi.com,165.122.246.33,Prod Int Web Server 01,
+omzcssopp01fa01v.vzbi.com,165.122.246.35,Prod Front End App Server 01,
+omzcssopp01ba01v.vzbi.com,165.122.246.37,Prod Back End App Server 01,
+omzcssopp01h02.vzbi.com,165.122.246.40,Prod ESX Server 02,USE241HV13
+omzcssopp01iw02v.vzbi.com,165.122.246.34,Prod Int Web Server 02,
+omzcssopp01fa02v.vzbi.com,165.122.246.36,Prod Front End App Server 02,
+omzcssopp01ba02v.vzbi.com,165.122.246.38,Prod Back End App Server 02,
+omzcssopp01fs01.vzbi.com,165.122.246.42,Prod Feed Server 01,USE242JH6N
+omzcssopp01fs02.vzbi.com,165.122.246.43,Prod Feed Server 02,USE242JH6P
+ndccssopp02ew01.vzbi.com,146.1.6.193,DR Ext Web Server 01,USE250P1SP
+ndccssopp02ew02.vzbi.com,146.1.6.194,DR Ext Web Server 02,USE250P1SS
+ndccssopp02ms01.vzbi.com,166.40.209.01,DR vCenter Host,USE250P1SJ
+ndccssopp02h01.vzbi.com,166.40.209.04,DR ESX Server 01,USE250P1SM
+ndccssopp02iw01v.vzbi.com,166.40.209.05,DR Int Web Server 01,
+ndccssopp02fa01v.vzbi.com,166.40.209.06,DR Front End App Server 01,
+ndccssopp02ba01v.vzbi.com,166.40.209.07,DR Back End App Server 01,
+ndccssopp02h02.vzbi.com,166.40.209.08	DR,ESX Server 02,USE250P1SR
+ndccssopp02iw02v.vzbi.com,166.40.209.09,DR Int Web Server 02,
+ndccssopp02fa02v.vzbi.com,166.40.209.10,DR Front End App Server 02,
+ndccssopp02ba02v.vzbi.com,166.40.209.11,DR Back End App Server 02,
+ndccssopp02fs01.vzbi.com,166.40.209.02,DR Feed Server 01,USE250P1SK
+ndccssopp02fs02.vzbi.com,166.40.209.03,DR Feed Server 02,USE250P1SL
