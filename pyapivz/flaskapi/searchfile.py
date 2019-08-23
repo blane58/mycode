@@ -4,5 +4,5 @@
 import re
 with open("cssophosts.txt", 'r') as req:
     for line in req:
-        mymatch = re.search("^[a-z][a-z][a-z]cssopp0\d[a-z][a-z]\d\d\.vzbi\.com,\d+\.\d+\.\d+\.\d+,.+\s\d+,.+o", line)
+        mymatch = re.search("^...cssopp0\d.+?.vzbi.com,\d+.\d+.\d+.\d+,.+,\s", line)
         print(mymatch)
